@@ -1,0 +1,8 @@
+[project]
+name = "nanmu-ai-workspace"
+version = "0.1.0"
+description = "Open-source toolkit for AI-assisted workflows and automation utilities"
+requires-python = ">=3.10"
+
+[project.scripts]
+nanmu = "src.cli:main"
